@@ -1,0 +1,81 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: 60px 40px 1fr;
+  height: 97vh;
+}
+
+/* Setting background colours for layout elements */
+header {
+  background-color: #FF788E;
+}
+
+nav {
+  background-color: #44E0A8;
+}
+
+main {
+  background-color: #C9EDFF;
+}
+
+aside {
+  background-color: #FACFD6;
+}
+
+article {
+  background-color: #6EDAFF;
+}
+
+article > figure {
+  background-color: #FFF1B5;
+}
+
+section {
+  background-color: #04A7FF;
+}
+
+footer {
+  background-color: #B87FFF;
+}
+/*  */
+
+header, nav, aside, main, article, figure, section, footer {
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* positional styling */
+
+header {
+  height: 50px;
+}
+
+nav {
+  height: 30px;
+}
+
+h3 {
+  margin-block-start: 0;
+}
+
+.container-main {
+  display: flex;
+  grid-row: 3 / span 2;
+}
+aside {
+  width: 30%;
+}
+
+main {
+  display: grid;
+  grid-auto-rows: 20px 1fr 1fr;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+footer {
+  /* grid-row: 5 / 6; */
+}
+/*  */
